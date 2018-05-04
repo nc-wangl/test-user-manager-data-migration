@@ -1,0 +1,47 @@
+{
+  "accountType" : {
+    "displayName" : "Account Type",
+    "values" : [ "401a_money_purchase", "401k", "457b", "defined_benefit", "esop", "non_qualified_defined_contribution", "profit_sharing", "target_benefit", "457f", "457b_non_profit", "457b_government", "thrift_savings_plan" ]
+  },
+  "allowsContributionChangeImplementation" : {
+    "displayName" : "Allows Contribution Change Implementation",
+    "values" : [ "true", "false" ]
+  },
+  "autoEscalationIncrement" : {
+    "displayName" : "Auto Escalation Increment",
+    "values" : [ "0.5", "1", "none" ]
+  },
+  "autoEscalationSavingsEndingRate" : {
+    "displayName" : "Auto Escalation Savings Ending Rate",
+    "values" : [ "0.8", "0.12", "0.16", "none" ]
+  },
+  "managedAccountsStartDate" : {
+    "displayName" : "Managed Accounts Start Date",
+    "values" : [ "Past", "Today", "Tomorrow", "Future" ]
+  },
+  "subAccounts" : {
+    "allowsAutoEscalation" : {
+      "displayName" : "Allows Auto Escalation",
+      "values" : [ "true", "false" ]
+    },
+    "isEligibleForManagedAccounts" : {
+      "displayName" : "Eligible for Managed Accounts",
+      "values" : [ "true", "false" ]
+    },
+    "isEligibleForNewContributions" : {
+      "displayName" : "Eligible for New Contributions",
+      "values" : [ "true", "false" ]
+    },
+    "source" : {
+      "displayName" : "Source",
+      "values" : [ "employer", "employee" ]
+    },
+    "taxTreatment" : {
+      "displayName" : "Tax Treatment",
+      "values" : [ "pre_tax", "roth", "post_tax" ]
+    }
+  },
+  "planId" : {
+    "displayName" : "Plan ID"
+  }
+}
