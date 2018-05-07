@@ -1,1 +1,4 @@
+# git ignore
 /ref/*
+/util/*
+*.json
